@@ -10,3 +10,5 @@ class Tracks(models.Model):
     album = models.URLField(max_length=200)
     Self = models.URLField(max_length=200)
 
+    def __str__(self):
+        return self.Self
